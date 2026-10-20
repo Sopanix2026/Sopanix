@@ -1,0 +1,55 @@
+backend:
+  name: github
+  repo: Sopanix2026/Sopanix
+  branch: main
+media_folder: uploads
+public_folder: /uploads
+locale: en
+collections:
+  - name: site
+    label: Website
+    files:
+      - name: content
+        label: Site Content
+        file: site.json
+        fields:
+          - {label: Contact Email, name: email, widget: string}
+          - label: Hero Tag
+            name: hero_eyebrow
+            widget: object
+            fields: [{label: English, name: en, widget: string}, {label: Bangla, name: bn, widget: string}]
+          - label: Hero Text
+            name: hero_lead
+            widget: object
+            fields: [{label: English, name: en, widget: text}, {label: Bangla, name: bn, widget: text}]
+          - label: About Title
+            name: about_title
+            widget: object
+            fields: [{label: English, name: en, widget: string}, {label: Bangla, name: bn, widget: string}]
+          - label: About Text
+            name: about_text
+            widget: object
+            fields: [{label: English, name: en, widget: text}, {label: Bangla, name: bn, widget: text}]
+          - label: Businesses
+            name: businesses
+            widget: list
+            fields:
+              - {label: Icon (one symbol), name: icon, widget: string}
+              - label: Title
+                name: title
+                widget: object
+                fields: [{label: English, name: en, widget: string}, {label: Bangla, name: bn, widget: string}]
+              - label: Description
+                name: text
+                widget: object
+                fields: [{label: English, name: en, widget: text}, {label: Bangla, name: bn, widget: text}]
+          - label: Founders & Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - label: Role
+                name: role
+                widget: object
+                fields: [{label: English, name: en, widget: string}, {label: Bangla, name: bn, widget: string}]
+              - {label: Photo, name: photo, widget: image, required: false}
