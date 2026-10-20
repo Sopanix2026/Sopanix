@@ -1,0 +1,33 @@
+{
+  "siteName": "Sopanix",
+  "tagline": "A New Vision. A New Journey.",
+  "heroEyebrow": "IDEAS INTO IMPACT",
+  "heroTitle": "A New Vision.<br>A New Journey.",
+  "heroDescription": "We create thoughtful digital experiences that help ambitious ideas move forward.",
+  "aboutTitle": "A clear vision.<br>A better way forward.",
+  "aboutDescription": "Sopanix is built on a simple belief: the best work happens when clear thinking meets thoughtful execution. We bring ideas, design, and technology together to create experiences with purpose.",
+  "contactTitle": "Have an idea?<br>Let’s talk.",
+  "contactDescription": "Tell us what you’re thinking. We’d love to hear from you.",
+  "email": "hello@sopanix.com",
+  "phone": "+880 0000-000000",
+  "team": [
+    {
+      "name": "Founder Name",
+      "role": "Founder & CEO",
+      "image": "",
+      "bio": "Building the Sopanix vision."
+    },
+    {
+      "name": "Team Member",
+      "role": "Creative & Design",
+      "image": "",
+      "bio": "Thoughtful ideas, carefully made."
+    },
+    {
+      "name": "Team Member",
+      "role": "Technology",
+      "image": "",
+      "bio": "Turning ideas into useful experiences."
+    }
+  ]
+}
